@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Playpen+Sans:wght@300;400;600;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+}
+
+body {
+    background-color: rgb(150, 101, 101);
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(236, 30, 30);
+    font-size: 28px;
+    text-shadow: 2px 1px 1px #000;
+    text-transform: initial;
+    letter-spacing: 1.1px;
+}
+
+.contenedor-tarjetas {
+    margin: 20px;
+    padding: 20px;
+    display: inline-flex;
+}
+
+.contenedor-tarjetas .tarjeta {
+    box-shadow: 10px 10px rgb(117, 72, 27);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(102, 127, 150);
+    width: fit-content;
+}
+
+.contenedor-tarjetas .tarjeta:first-child {
+    margin-right: 20px;
+}
+
+.contenedor-tarjetas .tarjeta .contenido-tarjeta span {
+    display: block;
+    color: aqua;
+}
